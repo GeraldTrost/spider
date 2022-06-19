@@ -11,7 +11,7 @@ PLEASE ONLY CRAWL AND MINE Websites that ALLOW these processes!
 as an initial configuration sample I will add backup of an "initialDB"
 
 for each mining task and for each crawling task you should define
-what urls to mine or what urls to follow inn the directives table.
+what urls to mine or what urls to follow in the directives table.
 
 the selector table defines the query selectors for each task.
 
