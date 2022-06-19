@@ -24,7 +24,7 @@ tool may be oversized or it may be inefficient
 - so you may want to use parts of this project and implement 
 specific directives and selectors hard coded in your project.
 
-so far I did not experience issues running thee
+so far I did not experience issues running three
 spider processes locally on windows using the same database.
 
 you may have to adapt few exception handlings if your
