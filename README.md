@@ -17,7 +17,7 @@ what urls to mine or what urls to follow in the directives table.
 the selector table defines the query selectors for each task.
 
 the task table defines the tasks to perform in order to crawl 
-and mine several websites simultanously.
+and mine several websites simultanously as well as their intervals.
 
 if you need to do it on one specific website only then this
 tool may be oversized or it may be inefficient
