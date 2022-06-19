@@ -1,0 +1,5 @@
+bm - basic modules written in older JS version - currentlyy not used
+db - database functions
+cm - crawler modules - will be used in future
+pb - program base modules
+spider - the main process
