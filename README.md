@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 spider is a task scheduler for web mining tasks and web crawling tasks
 
 it stores mined data and crawled links ( = page-urls) from a website 
@@ -20,7 +15,7 @@ what urls to mine or what urls to follow inn the directives table.
 
 the selector table defines the query selectors for each task.
 
-the tast table defines the tasks to perform in order to crawl 
+the task table defines the tasks to perform in order to crawl 
 and mine several websites simultanously.
 
 if you need to do it on one specific website only then this
@@ -33,4 +28,7 @@ spider processes locally on windows using the same database.
 
 you may have to adapt few exception handlings if your
 postgres db uses a language other than german.
+
+usage: in vscode debug spider.js
+hint: with netbeans you can view and edit postgres tables
 
