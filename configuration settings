@@ -19,7 +19,7 @@ hints for table 'selector'
 hints for table 'directive'
 
 - for both, mining tasks ('grab = true') and crawling tasks ('grab = false'), define 
-terms an url or html should contain or MUST NOT contain ('avoid') to be continued.
+terms an url or html should contain or MUST NOT contain ('avoid') to be performed on a specific url.
 
 
  
