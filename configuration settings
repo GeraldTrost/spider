@@ -9,7 +9,7 @@ hints for table 'tasks'
 
 hints for table 'selector'
 
-- before defining a query selector in the slc field, test the selector in the browser consile!
+- before defining a query selector in the slc field, test the selector in the browser's developer console!
 - preface the slc with '=' (without blanks) to indicate that it returns one single line rather than an array of lines
 - if the selector contains name and value then use ':=' inside the slc to seperate name and value
 - within the slc you may use '{{*1..3*}}' to iterate it
