@@ -1,0 +1,25 @@
+
+hints for table 'tasks'
+
+- name each craling task like 'craw-xxxxx'
+- site and url MUST NOT contain 'https://' or 'http://'
+- site MUST NOT contain 'www.' 
+- url SHOULD NOT contain 'www.'
+- task names starting with '!' indicate not to crawl but grab data from a single url
+
+hints for table 'selector'
+
+- before defining a query selector in the slc field, test the selector in the browser consile!
+- preface the slc with '=' (without blanks) to indicate that it returns one single line rather than an array of lines
+- if the selector contains name and value then use ':=' inside the slc to seperate name and value
+- within the slc you may use '{{*1..3*}}' to iterate it
+--- e.g:  "=value:=getElementByTagName('li').items({{*1..3*}}).innerText" will evaluate items(1) and items(2) and items(3) 
+- if the slc returns an array of lines then the naming option ':=' as shown above will be mandatory 
+
+hints for table 'directive'
+
+- for both, mining tasks ('grab = true') and crawling tasks ('grab = false'), define 
+terms an url or html should contain or MUST NOT contain ('avoid') to be continued.
+
+
+ 
