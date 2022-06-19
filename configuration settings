@@ -5,7 +5,7 @@ hints for table 'tasks'
 - site and url MUST NOT contain 'https://' or 'http://'
 - site MUST NOT contain 'www.' 
 - url SHOULD NOT contain 'www.'
-- task names starting with '!' indicate not to crawl but grab data from a single url
+- task names starting with '!' indicate not to crawl the site but only to grab data from a single url
 
 hints for table 'selector'
 
