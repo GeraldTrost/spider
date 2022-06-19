@@ -25,7 +25,7 @@ tool may be oversized or it may be inefficient
 specific directives and selectors hard coded in your project.
 
 so far I did not experience issues running three
-spider processes locally on windows using the same database.
+spider processes locally on windows using a single database instance.
 
 you may have to adapt few exception handlings if your
 postgres db uses a language other than german.
