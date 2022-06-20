@@ -4,7 +4,7 @@ spider is a task scheduler for web mining tasks and web crawling tasks
 based on node.js and postgres and puppeteer-core.
 
 it stores mined data and crawled links ( = page-urls) from a website 
-into a postgres db according to your interval setting and to your defined 
+into a postgres db according to your interval settings and to your defined 
 directives and to your defined query-selectors.
 
 PLEASE ONLY CRAWL AND MINE Websites that ALLOW such processes!
