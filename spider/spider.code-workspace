@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bm"
+		},
+		{
+			"path": "../pb"
+		},
+		{
+			"path": "../db"
+		},
+	],
+	"settings": {}
+}
