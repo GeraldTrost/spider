@@ -146,7 +146,7 @@ function quickStart()
  console.log('');
  console.log('to install spider.js first setup a postgres DB "site", owner=root, pwd=root');
  console.log('in commandline do: "cd ../pb", "npm i fs", "npm i pg", "npm i lzutf8", "npm i child_process", "npm i puppeteer-core"');
- console.log('update startBrw.bat to point to your preferred chromium.exe or chrome.exe"');
+ console.log('update browser.bat to point to your preferred chromium.exe or chrome.exe"');
  console.log('with pgAdmin restore the sample tables from the initial-DB folder, restore-type = "directory"');
  console.log('from the commandline type spider.bat - your first sample installation of the task scheduler "spider" should be running now.');
  console.log('regularly query the "crawled" table and the "mined" table to see what spider has found so far.');
@@ -196,7 +196,7 @@ async function query(sql)
  }
  catch (err)
  {
-  if (!err.message.startsWith('doppelter'))
+  if (!err.message.startsWith('duplicate'))
   {
    console.log('========== SQL ERROR ================== ' + err.message);
    console.log(sql);
