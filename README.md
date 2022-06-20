@@ -27,7 +27,7 @@ specific directives and selectors hard coded in your project.
 so far I did not experience issues running three
 spider processes locally on windows using a single database instance.
 
-I switched to english postgres exceptions (lc_messages = 'en-us.1252' in postgresql.conf)
+I will switch to english postgres exceptions
 
 usage: in vscode debug spider.js
 hint: with netbeans you can view and edit postgres tables
